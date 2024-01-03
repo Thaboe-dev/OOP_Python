@@ -1,5 +1,4 @@
 import csv
-from sqlite3 import connect
 
 
 class Item:

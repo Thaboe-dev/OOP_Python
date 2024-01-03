@@ -3,7 +3,7 @@ from item import Item
 '''INHERITANCE'''
 class Phone(Item):
     
-    def __init__(self, name: str, price: float, quantity: int, broken_phones = 0):
+    def __init__(self, name: str, price: float, quantity: int, serial: str, broken_phones = 0):
         #Call to the Constructor of the Super Class
         super().__init__(
             name, price, quantity
